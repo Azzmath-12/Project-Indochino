@@ -1,0 +1,294 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+:root {
+    --main-color: #5893cf;
+    --secondary-color: #323232;
+}
+
+/* header-section */
+.header-section {
+    display: flex;
+    text-align: center;
+    padding: 1% 8%;
+    background-color: white;
+}
+
+.header-section h1 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
+
+.header-section p {
+    font-size: 0.77rem;
+    color: var(--secondary-color);
+    font-weight: 450;
+}
+
+/* banner-section */
+.banner-section {
+    background-image: url(../img/banner-1.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    margin-left: 20%;
+    color: white;
+}
+
+.banner-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 8%;
+}
+
+.banner-content p {
+    font-size: 1.1rem;
+    margin-bottom: 8%;
+}
+
+.banner-content-hr-line {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 92%;
+    background-color: white;
+    margin-bottom: 8%;
+}
+
+.banner-content button {
+    color: var(--main-color);
+    background-color: white;
+    width: 62%;
+    padding: 2%;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+}
+
+/* explore-section */
+
+.explore-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 3% 10%;
+}
+
+.explore-content h1 {
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.explore-content h1::after {
+    content: "";
+    display: block;
+    background-color: grey;
+    height: 2px;
+    width: 17%;
+    margin: 2% auto 4% auto;
+}
+
+.explore-content p {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 6%;
+}
+
+.explore-content button {
+    color: var(--main-color);
+    background-color: white;
+    width: 33%;
+    padding: 1.2%;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid var(--main-color);
+    cursor: pointer;
+}
+
+/* our-services-section */
+
+.our-services-section {
+    padding: 4% 13%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5%;
+    background-color: var(--main-color);
+    height: 50%;
+}
+
+.our-services-section i {
+    color: white;
+    font-size: 2rem;
+    border: 2px solid white;
+    padding: 5%;
+    width: 25%;
+    border-radius: 50%;
+    margin-bottom: 3%;
+}
+
+.our-services-section h1 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.our-services-section h1::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 30%;
+    background-color: white;
+    margin: 2% auto 4% auto;
+    margin-top: 3%;
+}
+
+.our-services-section p {
+    color: white;
+    font-size: 0.95rem;
+    margin-top: 5%;
+    text-align: center;
+}
+
+/* visit-us-section */
+.visit-us-section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    padding: 3% 10%;
+    color: white;
+    text-align: center;
+    line-height: 38px;
+    position: relative;
+}
+
+.visit-us-section i {
+    position: absolute;
+    color: var(--main-color);
+    font-size: 3rem;
+    top: -22px;
+    left: 47%;
+}
+
+.visit-us-section h1 {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.visit-us-section button {
+    color: var(--main-color);
+    background-color: white;
+    width: 68%;
+    padding: 2%;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid var(--secondary-color);
+    margin-top: 8%;
+    cursor: pointer;
+}
+
+/* indochino-collection */
+.indochino-section {
+    padding: 3% 10%;
+    text-align: center;
+}
+
+.indochino-section h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-bottom: 4%;
+}
+
+.indochino-section h1::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 10%;
+    background-color: gray;
+    margin: 1% auto 1% auto;
+}
+
+.indochino-section div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.indochino-section div img {
+    height: 25%;
+    width: 18%;
+    margin: 5px;
+}
+
+/* indochino-quote-section */
+.indochino-quote-section {
+    padding: 3% 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.indochino-quote-section h2 {
+    font-size: 1rem;
+    margin-bottom: 8%;
+}
+
+.indochino-quote-section p {
+    margin-bottom: 5%;
+}
+
+.indochino-quote-section h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 8%;
+}
+
+.indochino-quote-section button {
+    color: var(--main-color);
+    background-color: white;
+    width: 42.5%;
+    padding: 1.5%;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+}
+
+/* footer-section */
+
+.footer-section {
+    padding: 3% 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+}
+
+.footer-section i {
+    font-size: 1.8rem;
+    color: gray;
+    margin-left: 5%;
+}
+
+.footer-section p {
+    color: gray;
+    font-size: 0.95rem;
+}
+
+.footer-section a {
+    color: var(--main-color);
+}
